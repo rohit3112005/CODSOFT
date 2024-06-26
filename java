@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
 public class StudentGrades {
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfSubjects = 4;
