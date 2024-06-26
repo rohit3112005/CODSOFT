@@ -32,7 +32,7 @@ public class Quiz {
     private List<QuizQuestion> questions;
     private int score;
     private int currentQuestionIndex;
-    private int timeLimitPerQuestion; // in seconds
+    private int timeLimitPerQuestion;
     private boolean timeUp;
     private Scanner scanner;
 
@@ -109,7 +109,7 @@ public class Quiz {
     }
 
     public static void main(String[] args) {
-        Quiz quiz = new Quiz(10); // 10 seconds per question
+        Quiz quiz = new Quiz(10); 
 
         quiz.addQuestion(new QuizQuestion("What is the capital of India?", new String[]{"Mohali", "Kolkata", "Delhi", "Pune"}, 2));
         quiz.addQuestion(new QuizQuestion("Which planet is known as the Red Planet in our Solar System?", new String[]{"Earth", "Mars", "Jupiter", "Saturn"}, 1));
